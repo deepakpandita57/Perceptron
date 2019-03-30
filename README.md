@@ -1,5 +1,4 @@
 # Implement perceptron for the adult income dataset using Python.
-Experiment with performance as a function of number of iterations.
 
 
 Task
@@ -14,6 +13,19 @@ http://archive.ics.uci.edu/ml/datasets/Adult
 
 preprocessed version from: 
 http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html
+
+Also, experiment with performance as a function of number of iterations.
+
+
+Files
+=============================================================================================================
+"Perceptron.py" contains the code for the perceptron algorithm.
+"README.md"
+
+
+Algorithm
+=============================================================================================================
+Perceptron algorithm for the adult income dataset is implemented using Python.
 
 
 Instructions for running "Perceptron.py"
