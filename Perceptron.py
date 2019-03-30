@@ -1,10 +1,13 @@
 #!/usr/bin/python3
 
+# Author: Deepak Pandita
+# Date created: 26 Jan 2018
+
 import numpy as np
 import argparse
-#import matplotlib.pyplot as plt
-#import matplotlib
-#matplotlib.style.use('ggplot')
+import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.style.use('ggplot')
 
 
 #using optional parameters
@@ -14,13 +17,10 @@ parser.add_argument('--nodev', help = "Not use the dev set", action = "store_tru
 args = parser.parse_args()
 
 #file paths
-#train_file = '/u/cs246/data/adult/a7a.train'
-#dev_file = '/u/cs246/data/adult/a7a.dev'
-#test_file = '/u/cs246/data/adult/a7a.test'
+train_file = '/data/adult/a7a.train'
+dev_file = '/data/adult/a7a.dev'
+test_file = '/data/adult/a7a.test'
 
-train_file = 'adult/a7a.train'
-dev_file = 'adult/a7a.dev'
-test_file = 'adult/a7a.test'
 
 #default no. of iterations
 iterations  = 10
@@ -98,11 +98,11 @@ if dev:
 		accuracies.append(accuracy)
 	print("Accuracies on dev set: " + str(accuracies))
 
-	#plt.plot(accuracies)
-	#plt.xlabel("#Iterations")
-	#plt.ylabel("Accuracy")
-	#plt.title("Plot of accuracy on dev set")
-	#plt.show()
+	plt.plot(accuracies)
+	plt.xlabel("#Iterations")
+	plt.ylabel("Accuracy")
+	plt.title("Plot of accuracy on dev set")
+	plt.show()
 
 #Read test file
 print('Reading file: '+test_file)

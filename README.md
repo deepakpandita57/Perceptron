@@ -1,6 +1,7 @@
 # Implement perceptron for the adult income dataset using Python.
 Experiment with performance as a function of number of iterations.
 
+
 Task
 =============================================================================================================
 Predict whether income exceeds $50K/yr based on census data. Also known as "Census Income" dataset.
