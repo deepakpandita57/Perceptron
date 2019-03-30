@@ -1,4 +1,4 @@
-#Implement perceptron for the adult income dataset using Python.
+# Implement perceptron for the adult income dataset using Python.
 Experiment with performance as a function of number of iterations.
 
 Task
