@@ -60,4 +60,5 @@ Feature weights (bias last): -6.0 -3.0 4.0 3.0 -2.0 0.0 -1.0 6.0 10.0 1.0 1.0 -6
 
 References
 =============================================================================================================
-This was done as a homework problem in the Machine Learning class (CSC 446, Spring 2018) by Prof. Daniel Gildea (https://www.cs.rochester.edu/~gildea/) at the University of Rochester, New York.
+This was done as a homework problem in the Machine Learning class (CSC 446, Spring 2018) by [Prof. Daniel Gildea](https://www.cs.rochester.edu/~gildea/) at the University of Rochester, New York. <br />
+Have questions? Shoot me an [email](https://sites.google.com/view/deepakpandita/contact).
